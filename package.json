@@ -15,11 +15,8 @@
     "google-map-react": "^1.1.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
     "react-script": "^2.0.5",
-=======
     "react-lottie": "^1.2.3",
->>>>>>> 3db9ec83e6b5bc5ec6f9c4073dfb225e8551efac
     "react-scripts": "3.4.1"
   },
   "scripts": {
