@@ -1,0 +1,320 @@
+.logo {
+    width: 173px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+  }
+  .ant-layout {
+    background: transparent;
+  }
+  .ant-menu{
+    background-color: transparent;
+  }
+  
+  .ant-menu-horizontal > .ant-menu-item:hover,
+  .ant-menu-horizontal > .ant-menu-submenu:hover,
+  .ant-menu-horizontal > .ant-menu-item-active,
+  .ant-menu-horizontal > .ant-menu-submenu-active,
+  .ant-menu-horizontal > .ant-menu-item-open,
+  .ant-menu-horizontal > .ant-menu-submenu-open,
+  .ant-menu-horizontal > .ant-menu-item-selected,
+  .ant-menu-horizontal > .ant-menu-submenu-selected {
+    border-bottom-color: #74cf4e!important;
+    color: white !important;
+  }
+  
+  .ant-menu-horizontal {
+    border-bottom: 0px !important;
+  }
+  ant-btn:hover,
+  .ant-btn:focus {
+    border-color: green !important;
+  }
+  
+  .layout {
+    height: 763px;
+    position: relative;
+    background-color: transparent !important;
+    overflow: hidden;
+  }
+  Header {
+    position: relative;
+    background-color: transparent !important;
+    opacity: 1;
+    z-index: 2;
+  }
+  .headerBg {
+    position: absolute;
+    left: 0;
+    top: -53px;
+    /* width: 62%; */
+    height: auto;
+    z-index: 1;
+    /* opacity: 0.6; */
+  }
+  .customclass {
+    width: 100px;
+    font-size: 15px;
+  }
+  
+  /* ///////////////////tringle //////////////*/
+  
+  .triangle {
+    position: relative;
+    background-color: white;
+    text-align: left;
+  }
+  .triangle:before,
+  .triangle:after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+  }
+  .triangle,
+  .triangle:before,
+  .triangle:after {
+    width: 8em;
+    height: 8em;
+    border-top-right-radius: 57%;
+    box-shadow: 4px -2px 5px -5px green;
+  }
+  
+  .triangle {
+    transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+  }
+  .triangle:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+      translate(0, -50%);
+    box-shadow: 2px -5px 8px -6px green;
+  }
+  .triangle:after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+  }
+  
+  .plansBg {
+    margin-top: 105px !important;
+    width: 700px !important;
+    margin-left: 505px !important;
+    clip-path: polygon(
+      68% 0%,
+      62% 0%,
+      54% 0%,
+      47% 0%,
+      40% 0%,
+      33% 0%,
+      25% 0%,
+      18% 0%,
+      10% 0%,
+      3% 0%,
+      0% 6%,
+      0% 13%,
+      0% 20%,
+      0% 28%,
+      0% 34%,
+      0% 41%,
+      0% 49%,
+      0% 56%,
+      0% 63%,
+      0% 70%,
+      0% 78%,
+      0% 85%,
+      0% 92%,
+      0% 100%,
+      8% 100%,
+      15% 100%,
+      22% 100%,
+      29% 100%,
+      35% 100%,
+      43% 100%,
+      50% 100%,
+      57% 100%,
+      64% 100%,
+      71% 100%
+    );
+  }
+  
+  .plans::after {
+    content: "";
+    display: flex;
+    height: 3px;
+    width: 35%;
+    margin: 6px;
+    position: relative;
+    margin-left: 4px;
+    background: #44cd48;
+    margin-top: 0px;
+    border-radius: 3px;
+  }
+  
+  .chefContainer {
+    margin: 3px;
+    padding: 3px;
+    width: 205px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+  }
+  
+  .chef {
+    border-radius: 47% 53% 53% 47% / 70% 68% 32% 30%;
+    width: inherit;
+    height: 197px;
+    width: 208px;
+    height: 233px;
+    width: 208px;
+  }
+  
+  .leafBg {
+    clip-path: polygon(
+      9% 0%9% 0%,
+      9% 100%,
+      9% 100%,
+      100% 100%,
+      100% 100%,
+      98% 0%,
+      98% 0%
+    );
+    width: 678px;
+    margin-left: -183px;
+  }
+  
+  .chef1 {
+    height: 150px;
+    width: 150px;
+<<<<<<< HEAD
+    /* background-image: url("../Components/chef3.jpg"); */
+=======
+    /* background-image: url("./images/chef3.jpg"); */
+>>>>>>> 3db9ec83e6b5bc5ec6f9c4073dfb225e8551efac
+    background-position: center;
+    border-radius: 47% 53% 53% 47% / 70% 68% 32% 30%;
+  }
+  #ch1 {
+    width: 81px;
+    height: 84px;
+    margin-left: 115px;
+    background-image: url("../Components/chef1.jpeg");
+    background-size: cover;
+  }
+  
+  #ch2 {
+    width: 108px;
+    height: 108px;
+    margin-left: -34px;
+    margin-top: 4px;
+    background-image: url("../Components/chef2.jpeg");
+    background-size: cover;
+  }
+  #ch3 {
+    width: 81px;
+    height: 84px;
+    margin-top: 70px;
+    background-image: url("../Components/chef3.jpeg");
+    background-size: cover;
+    margin-left: -1px;
+  }
+  
+  #courselBtn {
+    width: 84px;
+    height: 45px;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 8px 11px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 22px;
+  }
+  
+  .anticon-arrow-right {
+    font-size: 36px !important;
+    margin-left: 20px !important;
+  }
+  .anticon-arrow-left {
+    font-size: 36px !important;
+    margin-left: 20px !important;
+  }
+  */ .cheflines {
+    height: 176px;
+    font-size: 17px;
+    width: 315px;
+    margin-left: 64px;
+    margin-top: 58px;
+  }
+  
+  #flexiblePackage {
+    justify-content: center;
+    margin-top: 131px;
+    font-size: 28px;
+  }
+  
+  #flexiblePackage h1::after {
+    content: "";
+    display: flex;
+    height: 3px;
+    width: 68%;
+    margin: 6px;
+    position: relative;
+    margin-left: 95px;
+    background: #44cd48;
+    margin-top: 0px;
+    border-radius: 3px;
+  }
+  /* ////////second triangle row */
+  .triangle2 {
+    position: relative;
+    background-color: white;
+    text-align: left;
+  }
+  .triangle2:before,
+  .triangle2:after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+  }
+  .triangle2,
+  .triangle2:before,
+  .triangle2:after {
+    width: 8em;
+    height: 8em;
+    border-top-right-radius: 57%;
+    box-shadow: 4px -2px 5px -5px green;
+  }
+  
+  .triangle2 {
+    transform: rotate(0deg) skewX(-30deg) scale(1, 0.866);
+  }
+  .triangle2:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+      translate(0, -50%);
+    box-shadow: 2px -5px 8px -6px green;
+  }
+  .triangle2:after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+  }
+  
+  /* .formBg {
+    background: url("../public/images/Form.png");
+    width: 456px;
+    height: 425px;
+    border-radius: 35px 35px 35px 35px;
+    background-size: 470px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 45px;
+  } */
+  
+  .footer {
+    position: relative;
+    color: white;
+  }
+  
