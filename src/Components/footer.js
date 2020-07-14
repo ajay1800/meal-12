@@ -1,11 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
+
 import { Layout, Avatar, Menu, Button, Row, Col, Carousel, Icon } from "antd";
 import { FacebookOutlined, TwitterOutlined, LinkedinOutlined, InstagramOutlined } from "@ant-design/icons";
-=======
-import { Layout,  Row, Col,  } from "antd";
-import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons";
->>>>>>> 3db9ec83e6b5bc5ec6f9c4073dfb225e8551efac
+
 import style from "./footer.css";
 
 export default function footer() {
