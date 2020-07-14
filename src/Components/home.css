@@ -183,11 +183,6 @@
   .chef1 {
     height: 150px;
     width: 150px;
-<<<<<<< HEAD
-    /* background-image: url("../Components/chef3.jpg"); */
-=======
-    /* background-image: url("./images/chef3.jpg"); */
->>>>>>> 3db9ec83e6b5bc5ec6f9c4073dfb225e8551efac
     background-position: center;
     border-radius: 47% 53% 53% 47% / 70% 68% 32% 30%;
   }
